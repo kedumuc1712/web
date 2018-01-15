@@ -1,0 +1,398 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,a, em, font, img,
+strong, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	font-size: 62.5%;
+	font-family: goergia, helvetica, arial, sans-serif;
+	line-height: 1.5;
+	background: url(images/body_bg.png) top left;
+}
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 20px auto;
+	border: 1px solid white;
+}
+
+#header div#navBar ul.mainNav a#here {
+	color: #292929;
+}
+/**** 	HEADER	****/
+
+#header {
+	width: auto;
+	height: 208px;
+	background: url(images/header_bg.png) repeat-x top left;
+}
+
+#header div#logo {
+	float: left;
+	text-align: center;
+	width: 166px; height: 208px;
+	background: url(images/logo_bg.jpg) repeat-x top left;
+}
+
+#header div#logo ul#small-nav {
+	margin: 17px 0px 25px 0px;
+	padding: 0px 0px 9px 5px;
+	background: url(images/saperator.png) no-repeat bottom center;
+}
+
+#header div#logo ul#small-nav li{
+	display: inline;
+}
+
+#header div#logo ul#small-nav li a {
+	color: white;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border-right: 1px solid white;
+	padding-right: 5px;
+}
+
+#header div#logo ul#small-nav li:last-child a {
+	border: none;
+}
+
+#header div#logo h1 {
+	color: white;
+	font-family: tahoma;
+	font-size: 1.8em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#header div#logo span {
+	color: #ff7200;
+}
+
+#header div#logo p {
+	text-align: right;
+	margin-right: 18px;
+	color: #6e6d6e;
+}
+
+#header div#logo p.login {
+	margin: 24px 0px 0px 0px;
+	padding: 9px 15px 0px 0px;
+	color: white;
+	font-size: 1.1em;
+	background: url(images/saperator.png) no-repeat top center;
+}
+
+#header div#logo p.login a {
+	color: #ff7200;
+	font-weight: bold;
+}
+
+#header div#banner img {
+	margin-top: 4px;
+}
+
+#header div#navBar {
+	height: 33px; 
+	background: #c23903;
+}
+
+#header div#navBar ul.mainNav li {
+	float: left;
+	position: relative;
+}
+
+#header div#navBar ul.mainNav li a {
+	display: block;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px 10px;
+	line-height: 33px;
+}
+
+#header div#navBar li ul {
+	position: absolute;
+	left: 10px;
+	width: 130px;
+	display: none;
+	background: #ff6600;
+}
+
+#header div#navBar ul.mainNav li ul li {
+	width: 100%;
+	border-bottom: 1px dotted white;
+}
+
+#header div#navBar ul.mainNav li:hover ul {
+	display: block;
+}
+
+/****	MAIN SETTINGS	****/
+#sidebar {
+	float: left;
+	width: 166px;
+}
+
+#content {
+	background: white;
+}
+
+#primary {
+	font-size: 1.2em;
+	float: right;
+	width: 630px;
+}
+
+/**** 	SIDEBAR	 	****/
+
+#sidebar div#search {
+	height: 107px;
+	border-top: 1px solid white;
+	padding: 5px;
+	background: #e2e4d7;
+}
+
+#sidebar div#search p {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border-left: 2px solid #c23903;
+	margin: 5px 0px;
+	padding-left: 5px;
+}
+
+input#search-field {
+	width: 120px;
+	margin: 5px 0px;
+}
+
+.button {
+	background: #007eff;
+	color: white;
+	border: 1px solid #b4b5b0;
+	padding: 3px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+.button:hover {
+	background: #ff6600;
+}
+
+#search a {
+	color: #ff6600;
+	font-size: 1.1em;
+}
+
+/*** featured ***/
+#sidebar div#feature{
+	background: url(images/newTut_bg.jpg) repeat-x top left scroll;
+}
+
+#sidebar div#feature h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	text-align: center;
+	background: url(images/saperator.png) no-repeat bottom center;
+	padding: 8px;
+}
+
+#sidebar div#feature ul {
+	padding: 0px 10px;
+}
+
+#sidebar div#feature li {
+	border-bottom: 1px dotted white;
+	padding: 10px 0px;
+	color: white;
+	font-size: 1.1em;
+}
+
+#sidebar div#feature li:last-child {
+	border: none;
+}
+
+#sidebar div#news {
+	border: 1px solid white;
+	overflow: hidden;
+	background: white url(images/featured_bg.jpg) repeat-x top left;
+}
+
+#sidebar div#news h1 {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin: 8px 0px 15px;
+}
+
+#sidebar div#news ul {
+	padding: 0px 0px 0px 7px;
+}
+
+#sidebar div#news li {
+	padding-bottom: 40px;
+}
+
+#sidebar div#news li img{
+	float: left;
+	clear: both;
+	margin-right: 5px;
+}
+
+/****	PRIMARY		****/
+
+#primary #welcome {
+	height: 110px;
+	padding-bottom: 10px;
+	margin: 0px 5px;
+	border-bottom: 1px dotted #bfb8b2;
+}
+
+#primary #welcome img {
+	float: left;
+	margin-right: 5px;
+}
+
+#primary #welcome h1 {
+	color: #3f3f3f;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: normal;
+	padding-top: 20px;
+}
+
+#primary #welcome span {
+	font-size: 1.5em;
+	color: #c23903;
+	border-left: 2px solid #c23903;
+	padding-left: 20px;
+}
+
+#primary #welcome ul {
+	text-align: center;
+	margin-top: 5px;
+}
+
+#primary #welcome ul li {
+	display: inline;
+}
+
+#primary #welcome li a {
+	padding-right: 15px;
+	color: #ff6600;
+	padding-left: 12px;
+	font-size: 1.1em;
+	background: url(images/bullets.png) no-repeat 0 50%;
+}
+
+/**** TIER 1	****/
+#tier-1 {
+	overflow: hidden;
+	border-bottom: 1px dotted #bfb8b2;
+}
+
+.post-item {
+	float: left;
+	width: 290px;
+	margin: 10px;
+}
+
+.post-item h1 {
+	color: #393938;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	padding-left: 15px;
+	border-bottom: 1px solid #bfb8b2;
+	margin-bottom: 10px;
+	background: url(images/bullets.png) no-repeat 0 50%;
+}
+
+.post-item span {
+	color: #c23903;
+}
+
+.post-item img {
+	float: left;
+	margin: 3px 5px 0px 0px;
+}
+
+div.metadata {
+	font-size: .9em;
+	text-align: right;
+	float: right;
+	margin: 10px 0px 0px 0px;
+}
+
+div.metadata a {
+	color: #ff6600;
+	padding-left: 15px;
+	background: url(images/bullets.png) no-repeat 0 50%;
+}
+
+#tier-2 img {
+	float: none;
+	margin: 0px 0px 10px 0px;
+}
+
+/**** 	FOOTER		****/
+#footer {
+	height: 41px;
+}
+
+#footer div#footer-left {
+	color: white;
+	text-align: center;
+	font-size: 1.1em;
+	float: left;
+	width: 166px; height: 41px;
+	border-right: 1px solid white;
+	background: url(images/footer-left_bg.jpg) repeat-x top left;
+}
+
+#footer-left p.copyright {
+	margin-top: 5px;
+}
+
+#footer div#footerNav {
+	height: 41px;
+	background: url(images/footer-right_bg.jpg) repeat-x top left;
+}
+
+#footerNav ul {
+	line-height: 41px;
+	
+}
+
+#footerNav li {
+	display: inline;
+	margin: 0px 15px;
+}
+
+#footerNav li a {
+	color: white;
+	font-size: 1.2em;
+}
+
+
+
+

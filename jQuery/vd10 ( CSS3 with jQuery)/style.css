@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFE4B5;
+    color: #393939;
+}
+
+.heading {
+    background: #FFE4E1;
+    text-align: center;
+    padding: 45px;
+    font-size: 33px;
+}
+
+.content {
+    width: 1000px;
+    margin: auto;
+    height: 200px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+    padding-top: 35px;
+    font-size: 18px;
+    color: white;
+}
+
+.right {
+    width: 45%;
+    float: left;
+    margin-top: 1%;
+}
+
+.node {
+    background: #AB1E0F;
+    width: 100px;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.node:hover {
+    background: #6E1309;
+}
+
+.pop-up {
+    position: fixed;
+    width: 25%;
+    height: 39%;
+    background: red;
+    color: white;
+    padding: 22px 29px;
+    left: 38%;
+    top: 44%;
+    z-index: 2;
+    transition: 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.2);
+}
+
+h3 {
+    text-align: center;
+    padding: 15px 0;
+    background: #C42312;
+}
+
+.text {
+    padding: 16px;
+}
+
+.close {
+	cursor: pointer;
+	position: absolute;
+	bottom: 10%;
+	left: 42%;
+	border: 2px solid brown;
+	border-radius: 4px;
+	padding: 3%;
+	background: brown;
+}
+
+.hidden {
+    background: brown;
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.pop-up.hienRa {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hidden.hienRa-hidden {
+	visibility: visible;
+    opacity: 0.8;
+}

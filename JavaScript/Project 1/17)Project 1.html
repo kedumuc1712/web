@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 1</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css" />
+	<style>
+		/* Reset */
+		html,
+		body,
+		h1 {
+			margin: 0;
+			padding: 0;
+		}
+
+		html,
+		body {
+			height: 100%;
+			width: 100%;
+			font-family: 'Open Sans', sans-serif;
+
+			background-image: url("lavender.jpg");
+			background-repeat: none;
+			background-size: cover;
+
+			font-weight: 300;
+			color: #fff;
+			overflow: auto;		
+		}
+
+		main {
+			height: 100%;
+			text-align: center;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+
+		h1 {
+			font-size: 32px;
+			margin-top: 150px;
+			margin-bottom: 60px;
+			line-height: 1.85;
+		}
+
+		cite {
+			margin-top: 150px;
+		}
+
+		.btn-refresh {
+			display: block;
+			position: absolute;
+			bottom: 10px;
+			left: 50%;
+			margin: 0 auto;
+			height: 50px;
+			width: 150px;
+			margin-left: -75px;
+			font-size: 18px;
+			background: none;
+			border: 1px solid #ffffff;
+			color: black;
+			border-radius: 5px;
+			transition: background-color 0.2s, border 0.2s, color 0.2s;
+		}
+
+		.btn-refresh:hover {
+			background-color: rgba(255, 255, 255, 0.2);
+			border: 1px solid rgba(255,255, 255, 0.2);
+			cursor: pointer;
+			color: blue;
+		}
+
+	</style>
+</head>
+
+<body>
+	<main>
+		<h1 id="quote"></h1>
+		<cite id="author"></cite>
+
+		<button class="btn-refresh" onclick="makeQuote()">Refresh</button>
+	</main>
+
+	<script type="text/javascript">
+	// tao 1 mang cac quote
+		var quotes = [
+			// quotes[0]
+			{
+				quote: "Life is about making an impact, not making an income.",
+				author: "Kelvin Kruse"
+			},
+
+			// quotes[1]
+			{
+				quote: "Learn, Learn more, Learn forever",
+				author: "Lenin"
+			},
+
+			// quotes[2]
+			{
+				quote: "We know what we are, but know not what we may be.",
+				author: "William Shakespeare"
+			},
+
+			// quotes[3]
+			{
+				quote: "It does not matter how slowly you go as long as you do not stop.",
+				author: "Anonymous"
+			},
+
+			// quotes[4]
+			{
+				quote: "If you can dream it, you can do it",
+				author: "Walt Disney"
+			},
+		];
+
+		function makeRandomNumber(range) {
+			// ham Math.floor lay phan nguyen
+			return Math.floor(Math.random() * range);
+		}
+
+		function getQuote() {
+			return quotes[makeRandomNumber(quotes.length)];
+		}
+
+		// Khi an vao nut Refresh thi chuyen sang mot quote bat ky khac
+		function makeQuote() {
+			var para = getQuote();
+
+			var eleQuote = document.getElementById('quote');
+			var eleAuthor = document.getElementById('author');
+
+			eleQuote.innerText = para .quote;
+			eleAuthor.innerText = para .author;
+		}
+
+		// Khi load trang tu dau da co dong quote va author. Neu khong co lenh nay thi khi load trang tren background ko co quote
+		window.onload = makeQuote;
+	</script>
+</body>
+</html>

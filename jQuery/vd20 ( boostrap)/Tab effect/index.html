@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tab Effect</title>
+	
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.js"
+	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	  crossorigin="anonymous">	
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script type="text/javascript" src="effect.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="	sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="content">
+		<img src="../images/1.jpeg" alt="image 1" data-popOver="pop_over" data-title="Life" data-content="Smoke">
+		<b>Click here !</b>
+	</div>
+	
+	<br />
+	
+	<!-- btn btn-primary la class duoc dinh nghia trong bootstrap -->
+	<div class="text-center">
+		<div class="button1 btn btn-primary" data-tool="tooltip" title="This is Button 1">Button 1</div>
+		<div class="button2 btn btn-info" data-tool="tooltip" title="This is Button 2">Button 2</div>
+		<div class="button3 btn btn-primary" data-tool="tooltip" title="This is Button 3">Button 3</div>
+	</div>
+
+	<hr />
+	<h2 class="text-center">Tab effect</h2>
+
+	<!-- bs3-tabs -->
+	<div role="tabpanel">
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation" class="active">
+				<a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+			</li>
+			<li role="presentation">
+				<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Tab</a>
+			</li>
+		</ul>
+	
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="home">A paragraph (from the Ancient Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</div>
+			<div role="tabpanel" class="tab-pane" id="tab">A recent trendy idea in English is not to indent the first paragraph, but indent those that follow. For example, Robert Bringhurst states that we should "Set opening paragraphs flush left."[4] Bringhurst explains as follows:</div>
+		</div>
+	</div>
+</body>
+</html>

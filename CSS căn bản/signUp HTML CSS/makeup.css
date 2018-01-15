@@ -1,0 +1,372 @@
+body {
+    font-size: 8.45pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, li {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 7%;
+}
+
+#cloud {
+    width: 11%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    cursor: pointer;
+    /* con tro chuot chi vao la hinh ban tay */
+}
+
+/* #Content #login */
+#login {
+    background: #f9f9f9;
+    padding-top: 4%;
+    /* padding-bottom: 1%; */
+}
+
+/* #Content #login #window */
+#window {
+    width: 31.5%;
+    height: 71%;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    margin: 0 auto;
+}
+
+#sign_up {
+    margin-top: 6.25%;
+    margin-bottom: 4.25%;
+    color: #555555;
+    font-size: 16pt;
+}
+
+#name {
+    width: 100%;
+}
+
+/* #name #first_name */
+#first_name {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+#first_name input {
+    width: 94%;
+    height: 100%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5%;
+    margin-left: -18%;
+}
+
+/* Thay doi mau border khi de chuot vao */
+#first_name input:hover {
+    border-color: #84ceac;
+}
+
+/* #name #last_name */
+#last_name {
+    width: 30%;
+    display: inline-block;
+    margin-bottom: -17%;
+}
+
+#last_name input {
+    width: 96%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5%;
+    margin-left: 7%;
+}
+
+#last_name input:hover {
+    border-color: #84ceac;
+}
+
+/* #Email */
+#email {
+    width: 63.5%;
+    margin-left: 17%;
+    margin-right: 18%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+#email input:hover {
+    border-color: #84ceac;
+}
+
+#email input {
+    width: 100%;
+    padding: 3%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+}
+
+/* #Password */
+#password {
+    width: 63.5%;
+    margin-left: 17%;
+    margin-right: 18%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+#password input {
+    width: 100%;
+    padding: 3%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    /* Bo cong 4 goc cua border */
+}
+
+#password input:hover {
+    border-color: #84ceac;
+}
+
+/* #Cmt (comment) */
+#cmt {
+    width: 100%;
+    color: #b3b3b3;
+    margin-bottom: 3%;
+    margin-top: 4.5%;
+    padding-left: 1%;
+}
+
+#cmt span {
+    text-decoration: underline;
+    /* Chu co gach chan */
+}
+
+/* #Sign_in */
+.sign_in {
+    background-color: #048549;
+    border: none;
+    color: #ffffff;
+    padding: 1.5%;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 46%;
+    height: 6.5%;
+    margin-left: 27%;
+    margin-right: 26.5%;
+    margin-bottom: 10%;
+    border-radius: 2.8px;
+    cursor: pointer;
+}
+
+/*----- Or -----*/
+#Or {
+    margin-top: -7%;
+    margin-bottom: 3%;
+}
+
+.line1 {
+    display: inline-block;
+    width: 23%;
+    padding-right: 2%;
+}
+
+.text_or {
+    display: inline-block;
+    vertical-align: text-top;
+    font-style: italic;
+}
+
+.line2 {
+    display: inline-block;
+    width: 23%;
+    padding-left: 2%;
+}
+
+/* Login with facebook account */
+#facebook {
+    box-sizing: border-box;
+    /* Chi co content, padding va border. Ko co margin */
+    width: 66%;
+    height: 6.4%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    padding-top: 2.5%;
+    padding-bottom: 1.5%;
+    margin-left: 18%;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+.face {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.with_face {
+    display: inline-block;
+    color: #242424;
+    padding-left: 2%;
+    vertical-align: top;
+}
+
+/* Login with google account */
+#google {
+    box-sizing: border-box;
+    width: 66%;
+    height: 6.4%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 18%;
+    margin-bottom: 8%;
+    cursor: pointer;
+}
+
+.gmail {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.with_gmail {
+    display: inline-block;
+    color: #242424;
+    padding-left: 2%;
+    vertical-align: top;
+}
+
+/* Already */
+#already {
+    margin: 0 auto;
+    width: 11%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+}
+
+#already span a {
+    color: #5ab282;
+    text-decoration: underline;
+}
+
+/* End #login */
+/* #Content #menu */
+#menu {
+    width: 100%;
+    /* height: 238px; */
+    background: #f2f2ef;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+#menu ul li a:hover {
+    color: #2ca367;
+}
+
+#menu ul li:hover {
+    color: #2ca367;
+}
+
+#table {
+    width: 60.5%;
+    height: 100%;
+    margin-left: 20%;
+    font-size: 8.45pt;
+    display: inline-block;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 10pt;
+    height: 40px;
+}
+
+/* .feature */
+.feature {
+    width: 34.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nanodegree {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+/* .student */
+.student {
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+}
+
+.resource {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.student ul {
+    padding-left: 10%;
+}
+
+/* .udacity */
+.udacity {
+    width: 14%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4%;
+}
+
+#logo {
+    display: inline-block;
+    width: 0;
+    margin-left: 10%;
+    vertical-align: top;
+}
+
+#menu a, li {
+    color: #262626;
+}
+
+.feature ul li:last-child {
+    list-style-type: none;
+}
+
+.udacity ul li:last-child {
+    list-style-type: none;
+}
+
+/* #Content #footer */
+#footer {
+    width: 100%;
+    height: 7.2%;
+    background: #0a9d59;
+}
+
+#copy_right {
+    width: 50%;
+    padding-top: 1.5%;
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+#copy_right span {
+    color: #fbfbfb;
+}
+
+#image {
+    margin-left: 72%;
+    margin-bottom: 1%;
+    margin-top: -1.5%;
+    padding-top: -8%;
+    padding-bottom: -4%;
+    cursor: pointer;
+}

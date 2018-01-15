@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.apple {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.imageSlide {
+	width: 100%;
+	height: 680px;
+	position: relative;
+}
+
+/* Cho cac anh nam cung vi tri */
+.slide {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slide.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+img {
+    width: 100%;
+}
+
+.prev {
+    position: absolute;
+    z-index: 4;
+    top: 33%;
+    left: 0;
+    cursor: pointer;
+    width: 2%;
+}
+
+.next {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    z-index: 4;
+    width: 3%;
+    cursor: pointer;
+}
+
+.buttonSlide li {
+    list-style: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background: gray;
+    border-radius: 50%;
+    text-indent: -9000px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buttonSlide li:hover {
+    background: black;
+}
+
+ul {
+    display: inline-block;
+}
+
+.buttonSlide {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+.buttonSlide li.circle {
+	background: none;
+	border: 1px solid lightblue;
+}
+
+@-webkit-keyframes turnLeft {
+	0% {
+		transform: translateX(0);
+		opacity: 1;
+		visibility: visible;
+	}
+
+	100% {
+		transform: translateX(-100%);
+		opacity: 0.8;
+		visibility: hidden;
+	}
+}
+
+.turnLeft {
+	animation: turnLeft 1s forwards;
+}
+
+@-webkit-keyframes goToMid {
+	0% {
+		left: 100%;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	100% {
+		left: 0;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.goToMid {
+	animation: goToMid 1s forwards;
+	opacity: 1;
+	visibility: visible;
+}
+
+@-webkit-keyframes turnRight {
+	0% {
+		transform: translateX(0);
+		opacity: 1;
+		visibility: visible;
+	}
+
+	100% {
+		transform: translateX(100%);
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+.turnRight {
+	animation: turnRight 1s forwards;
+}
+
+@-webkit-keyframes rightToMid {
+	0% {
+		right: 100%;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	100% {
+		right: 0;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.rightToMid {
+	animation: rightToMid 1s forwards;
+	opacity: 1;
+	visibility: visible;
+}

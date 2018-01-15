@@ -1,0 +1,97 @@
+body {
+    font-family: tahoma;
+    color: #efeff1;
+    font-size: 40px;
+    background-image: url("black.png");
+    background-size: cover;
+}
+
+#countdown {
+    position: relative;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15%;
+}
+
+ul li {
+    width: 16%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid green;
+    background: lightblue;
+}
+
+ul li p {
+    text-transform: uppercase;
+    color: #d0d0d0;
+}
+
+#days, #hours, #minutes, #seconds {
+    height: 160px;
+    padding-top: 0;
+    padding-bottom: 10%;
+    border-radius: 15px;
+    font-size: 150px;
+    box-shadow: 4px 10px 15px rgba(0, 0, 0, .5);
+    background: linear-gradient(to left, #121b23 , #111921, #15202a);
+}
+
+ul li #days::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 15.5%;
+    height: 1px;
+    top: 71%;
+    left: 15%;
+    border-top: 1px solid #0c0d10;
+    background: #0c0d10;
+    z-index: 1;
+}
+
+ul li #hours::after {
+    content: "";
+    position: absolute;
+    width: 15.5%;
+    height: 1px;
+    top: 71.5%;
+    left: 33%;
+    border-top: 1px solid #0c0d10;
+    background: #0c0d10;
+    z-index: 1;
+}
+
+ul li #minutes::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 16.5%;
+    height: 1px;
+    top: 71%;
+    left: 51%;
+    border-top: 1px solid #0c0d10;
+    background: #0c0d10;
+    z-index: 1;
+}
+
+ul li #seconds::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 16.5%;
+    height: 1px;
+    top: 71%;
+    left: 70%;
+    border-top: 1px solid #0c0d10;
+    background: #0c0d10;
+    z-index: 1;
+}

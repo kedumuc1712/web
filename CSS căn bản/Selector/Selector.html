@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Le Cong" />
+		<meta name="keyword" content="Selector" />
+		<title>Selector</title>
+		<link rel="stylesheet" href="selector.css" />
+	</head>
+	<body>
+		<strong>Vùng chọn dựa vào tên thẻ</strong>
+		<h1>Tiêu đề thứ nhất</h1>
+		<p>Đây là một đoạn chữ đã được định dạng với CSS</p>
+		<h1>Tiêu đề thứ 2</h1>
+		<hr />
+		<strong>Vùng chọn dựa vào ID</strong>
+		<h2 id="setup">Tiêu đề thiết lập id</h1>
+		<h2>Tiêu đề không thiết lập id</h1>
+		<hr />
+		<strong>Vùng chọn dựa vào Class</strong>
+		<pre class="cpp">
+			# include <code>&lt;iostream&gt;</code>
+
+			using namespace std;
+
+			int main(){
+				cout << "Hello World" << endl;
+				return 0;
+			}
+		</pre>
+		<hr />
+		<strong>Vùng chọn theo thứ cấp</strong>
+		<ul id="menu">
+			<li>Menu 1</li>
+			<li>Menu 2</li>
+			<li>Menu 3</li>
+		</ul>
+		<ul id="social">
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Google+</li>
+		</ul>
+		<hr />
+		<strong>Vùng chọn thứ cấp liền nhau</strong>
+		<nav id="Menu">
+		<ul>
+			<li>Menu 1
+		<ul>
+			<li>Menu 1.a</li>
+			<li>Menu 1.b</li>
+		</ul>
+		</li>
+		<li>Menu 2</li>
+		<li>Menu 3</li>
+		</ul>
+		</nav>
+	</body>
+</html>

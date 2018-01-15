@@ -1,0 +1,27 @@
+/* Thiết lập container ( phần tử mẹ) */
+
+.container {
+	width: 960px;
+	border: 1px solid #333;
+	padding: 10px;
+}
+
+/* cột post */
+#post {
+	width: 660px;
+	height: 150px;
+	background: #e8e8e8;
+	float: left;
+}
+
+/* Cột sidebar */
+#sidebar {
+	width: 300px;
+	height: 150px;
+	background: #b1b1b1;
+	float: right;
+}
+
+.clear {
+	clear: both;
+}

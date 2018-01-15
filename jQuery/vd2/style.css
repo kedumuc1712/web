@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 25%;
+    margin: 0 auto;
+    border: 1px solid #e0e0d1;
+}
+
+.table h3 {
+    width: 97%;
+    display: inline-block;
+    padding-left: 3%;
+    background-color: #66b3ff;
+    cursor: pointer;
+}
+
+.content {
+	padding: 2%;
+}
+
+.table h3.blue {
+	background: #00b33c;
+}
+
+.table h3.blue:hover {
+	background: #00b33c;
+}

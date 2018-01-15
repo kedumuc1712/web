@@ -1,0 +1,56 @@
+body {
+	font-size: 20px;
+	text-align: center;
+	font-family: sans-serif;
+}
+div {
+	background: #3E474F;
+	color: #fff;
+	padding: 20px 10px 20px 10px;
+}
+
+p.dooted {
+	border-style: dotted;
+}
+p.dashed {
+	border-style: dashed;
+}
+p.solid {
+	border-style: solid;
+}
+p.double {
+	border-style: double;
+}
+p.groove {
+	border-style: groove;
+}
+p.ridge {
+	border-style: ridge;
+}
+p.inset {
+	border-style: inset;
+}
+p.ouset {
+	border-style: outset;
+}
+p.none {
+	border-style: none;
+}
+p.hidden {
+	border-style: hidden;
+}
+p.mix {
+	border-style: dotted dashed solid double;
+}
+
+#box1 {
+	width: 100px;
+	height: 100px;
+	background: red;
+	color: #fff;
+}
+#box2 {
+	margin: 32px 0 0 0; /* top right bottom left */
+	background: blue;
+	color: #fff;
+}

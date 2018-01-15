@@ -1,0 +1,96 @@
+body {
+    background-color: #efefef;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: lightblue;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.active {
+    background-color: black;
+    color: lightblue;
+}
+
+td {
+    padding-top: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 10px;
+    border: 1px solid gray;
+}
+
+th {
+    border: 1px solid black;
+}
+
+#form {
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    background: rgba(123, 193, 67, 0.77);
+}
+
+.field {
+    display: block;
+}
+
+input {
+    margin: 0 auto;
+}
+
+.edit {
+    background-color: #286090;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #286090;
+}
+
+.delete {
+    background-color: #C9302C;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #C9302C;
+}
+
+.save {
+    background-color: #286090;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #286090;
+}
+
+.cancel {
+    background-color: #C9302C;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #C9302C;
+}
+
+@keyframes pop_up {
+    0% {
+        opacity: 0;
+        left: 50%;
+        top: 0
+    }
+
+    100% {
+        opacity: 1;
+        left: 50%;
+        top: 100px;
+    }
+}
+
+.form {
+    animation: pop_up 0.5s forwards;
+}

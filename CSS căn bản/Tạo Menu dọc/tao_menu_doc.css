@@ -1,0 +1,51 @@
+body {
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+/* Thêm màu nền và bỏ dấu chấm đầu dòng danh sách */
+#menu ul {
+	background: #8AD385;
+	width: 250px;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+/* Thêm chiều cao cho các thẻ <li> với height và thêm line-height 
+bằng với chiều cao nó đứng giữa block */
+#menu li {
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 0 1em;
+}
+
+/* Chuyển thẻ a bên trong menu thành block và thêm style cần thiết, tạo
+hiệu ứng background khác khi rê chuột qua mục menu */
+#menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+#menu li:hover {
+	background: #CDE2CD;
+}
+
+#menu ul li {
+	position: relative;
+}
+
+#menu .sub-menu {
+	position: absolute;
+	left: 250px;
+	top: 0;
+	display: none;
+}
+
+#menu li:hover .sub-menu {
+	display: block;
+}
+

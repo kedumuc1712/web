@@ -1,0 +1,39 @@
+p{
+	font-size: 24px;
+}
+
+#u{
+	text-decoration: underline;
+	text-align: left;
+}
+#o {
+	text-decoration: overline;
+	text-align: center;
+}
+#all {
+	text-decoration: overline underline line-through;
+	text-align: right;
+}
+#text {
+	background-color: blue;
+	width: 500px;
+	color: white;
+}
+#text p {
+	text-indent: 15%;
+	text-overflow: clip;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#title {
+	text-shadow: orange 2px 3px 4px, yellow -2px 1px 2px;
+}
+#capitalize {
+	text-transform: capitalize;
+}
+#uppercase {
+	text-transform: uppercase;
+}
+#lowercase {
+	text-transform: lowercase;
+}

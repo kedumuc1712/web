@@ -1,0 +1,18 @@
+#height {
+	height: auto;
+}
+#max-height {
+	max-height: 400px;
+}
+#max-width {
+	max-width: 900px;
+}
+#min-height {
+	min-height: auto;
+}
+#min-width {
+	min-width: 100px;
+}
+#width {
+	width: 75%;
+}

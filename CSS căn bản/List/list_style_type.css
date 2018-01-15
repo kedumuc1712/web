@@ -1,0 +1,26 @@
+/* list-style: <list-style-type> <list-style-position> <list-style-image; */
+/*
+disc: Kiểu nút tròn có nền bên trong,
+circle: Kiểu nút tròn nhưng có viền nhưng không có nền.
+squre: Kiểu ô vuông có nền.
+decimal: Kiểu số thứ tự.
+lower-roman: Kiểu số La Mã in thường.
+upper-roman: Kiểu số La Mã in hoa.
+none: Xóa các dấu đầu dòng.
+*/
+
+body {
+	font-size: 24px;
+}
+
+#disc {
+	list-style-type: disc;
+}
+
+#circle {
+	list-style-type: circle;
+}
+
+#decimal {
+	list-style-type: decimal;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array</title>
+	<script type="text/javascript">
+		// Khai bao mang
+		var num = [1,2,3,4];
+		var name = ["Naruto", "Goku", "Sasuke"];
+		var allInOne = [7, 3.14, "Conglt", true];
+		var collection = ["Fight Club", false, [0.9, "A good a movie"]];
+
+		//Vi tri
+		console.log("num[0] is " + num[0]);
+		console.log("name[2] is " + name[2]);
+		console.log("collection[2] is " + collection[2]);
+
+		//Lay kich thuoc mang
+		console.log(num.length);
+		console.log(collection.length);
+
+		//Them gia tri vao cuoi mang
+		console.log(name);
+
+		//Xoa phan tu cuoi cung
+		var last = collection.pop();
+		console.log(collection);
+
+		//Them phan tu vao dau tien
+		num.unshift(5); 
+
+		//Xoa 1 phan tu: chuyen thanh undefined
+		var temp = ["hn", "th", "sg"];
+		delete temp[2];
+		
+		//Sap xep
+		num.sort();
+		console.log(num);
+    
+		// Dao nguoc
+		num.reverse();
+		console.log(num);
+    
+		//Noi mang
+		var a = [0,1,2];
+		var b = [3,4,5];
+		var container = a.concat(b);
+		console.log(container);
+    
+		// Chuyen mang thanh chuoi
+		var school = ["1st", "2nd", "3rd"];
+		console.log(school.toString());
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+#px-unit {
+	font-size: 25px;
+}
+#pt-unit {
+	font-size: 72pt;
+}
+#px {
+	width: 500px;
+	height: 300px;
+	background: red;
+	/* Khong can de y */
+		display: moz-box;
+		-moz-box-pack: center;
+		-moz-box-align: center;
+		display: -webkit-box;
+		-webkit-box-pack: center;
+		-webkit-box-align: center;
+		display: box;
+		box-pack: center;
+		box-align: center;
+}
+#percent {
+	width: 50%;
+	height: 50%;
+	background: blue
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.giaodien {
+    width: 1000px;
+    height: auto;
+    margin-left: 228px;
+    opacity: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.khoi {
+    width: 260px;
+    float: left;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.khoi a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.khoitext {
+    font-size: 15px;
+    color: gray;
+    width: 900px;
+    margin: auto;
+}
+
+
+/* @-webkit-keyframes diTuDuoiLen {
+	0% {
+		transform: translateY(200px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+.giaodien.hienRa .khoi {
+	animation: diTuDuoiLen 0.5s forwards;
+}
+
+.giaodien.hienRa .khoi:first-child {
+	animation-delay: 0.2s;
+}
+
+.giaodien.hienRa .khoi:nth-child(2) {
+	animation-delay: 0.4s;
+}
+
+.giaodien.hienRa .khoi:nth-child(3) {
+	animation-delay: 0.6s;
+}
+
+.giaodien.hienRa .khoi:nth-child(4) {
+	animation-delay: 0.8s;
+}
+
+.giaodien.hienRa .khoi:nth-child(5) {
+	animation-delay: 1s;
+}
+
+.giaodien.hienRa .khoi:nth-child(6) {
+	animation-delay: 1.2s;
+}
+
+.giaodien.hienRa .khoi:nth-child(7) {
+	animation-delay: 1.4s;
+}
+
+.giaodien.hienRa .khoi:nth-child(8) {
+	animation-delay: 1.6s;
+} */

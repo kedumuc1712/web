@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Button</title>
+</head>
+<body>
+	<button onclick="onClickMe()">Click me</button>
+
+	<p>You have clicked <span id="count">0</span> times</p>
+
+	<script type="text/javascript">
+		var count = 0;
+
+		function onClickMe() {
+			count++;
+
+			//document.querySelector("#count").innerText = count;
+
+			document.getElementById('count').innerText = count;
+		}
+	</script>
+</body>
+</html>

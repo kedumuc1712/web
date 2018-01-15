@@ -1,0 +1,267 @@
+@font-face {
+    font-family: Roboto;
+    src: url(roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+/* #header */
+#header {
+    background-color: #ffffff;
+}
+
+.cloud {
+    margin-left: 20%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+/* #login */
+#login {
+    /* width: 100%; */
+    background-color: #f9f9f9;
+    /* height: 21%; */
+    padding: %;
+    padding-top: 4%;
+    padding-bottom: 2.5%;
+}
+
+/* #login #sign_in */
+#sign_in {
+    width: 30%;
+    height: 78%;
+    margin: 0 auto;
+    border: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    padding-bottom: 2.5%;
+    padding-top: 1.25%;
+}
+
+.signIn_title {
+    font-size: 12pt;
+    width: 100%;
+    padding: 1% 44%;
+    margin-bottom: 3%;
+}
+
+/* info ( Email and password) */
+.info {
+    width: 63.5%;
+    height: 6.5%;
+    margin-left: 19.6%;
+    margin-bottom: 3%;
+}
+
+.info input {
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+}
+
+/* #forgot */
+#forgot {
+    width: 50%;
+    color: #0a9d59;
+    text-decoration: underline;
+    /* padding-left: 38.5%; */
+    /* margin-left: 37%; */
+    margin: 5% 38%;
+}
+
+/* Button Sign-in Green */
+#button_signIn {
+    width: 55%;
+    height: 6.5%;
+    background-color: #0a9d59;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5% 24%;
+}
+
+#button_signIn a {
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3% 40%;
+}
+
+/* ----- Or ----- */
+#Or {
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.line1 {
+    width: 30%;
+    display: inline-block;
+    color: #dadada;
+    vertical-align: top;
+    padding-right: 2%;
+}
+
+.line2 {
+    width: 34%;
+    display: inline-block;
+    color: #dadada;
+    vertical-align: top;
+    padding-left: 2%;
+}
+
+.or {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 2%;
+    color: #747474;
+    font-style: italic;
+}
+
+/* .Other_login with facebook or google */
+.Other_login {
+    width: 63.5%;
+    height: 6.5%;
+    margin-left: 19.6%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 2% 0;
+}
+
+.icon {
+    display: inline-block;
+    margin-left: 18%;
+    vertical-align: top;
+}
+
+.login_with {
+    font-size: 10pt;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 2%;
+    vertical-align: top;
+    padding: 0% auto;
+}
+
+/* #not_udacian */
+#not_udacian {
+    margin-left: 46%;
+    padding-top: 1.5%;
+}
+
+#not_udacian span {
+    color: #0a9d59;
+    text-decoration: underline;
+}
+
+/* #menu */
+#menu {
+    background-color: #f2f2ef;
+}
+
+/* #menu #table */
+#table {
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 1.5%;
+}
+
+#table li a {
+    text-decoration: none;
+    color: #6f6f6e;
+}
+
+#table ul {
+    list-style-type: circle;
+}
+
+#table li a:hover {
+    color: #0a9d59;
+}
+
+/* list_title */
+.list_title {
+    height: 27px;
+}
+
+/* feature */
+.feature li:last-child {
+    list-style-type: none;
+}
+
+.feature {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.feature ul {
+    padding-left: 5%;
+}
+
+/* .student */
+.student {
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.student ul {
+    padding-left: 11%;
+}
+
+/* udacity */
+.udacity {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.udacity li:last-child {
+    list-style-type: none;
+}
+
+.udacity ul {
+    padding-left: 6%;
+}
+
+/* #logo */
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    padding-top: 2.1%;
+    /* height: 4%; */
+}
+
+/* #footer */
+#footer {
+    background-color: #0a9d59;
+    /* height: 24%; */
+    padding: 1.5% 0;
+}
+
+#footer_title {
+    width: 35%;
+    color: #fbfbfb;
+    display: inline-block;
+    margin-left: 20%;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+#image {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 16%;
+    padding: 0% auto;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fuction</title>
+	<script type="text/javascript">
+		function euclid(num1, num2){
+			var temp = num1 % num2;
+			while (num2 != 0){
+				temp = num1 % num2;
+				num1 = num2;
+				num2 = temp;
+			}
+			return num1;
+		}
+		console.log(euclid(15,45));
+
+		var def = function add(a,b){
+			return a + b;
+		};
+		console.log(def(1,2));
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

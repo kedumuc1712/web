@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input</title>
+</head>
+<body>
+	<form>
+		<input type="text" id="name">
+		<input type="number" id="age">
+		<select name="gender" id="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+		<input type="submit" value="Submit" onclick="event.preventDefault(); onClick()">
+	</form>
+
+	<div id="result"></div>
+
+	<script>
+		function onCLick() {
+			var name = document.getElementById('name').value;
+			var age = document.getElementById('age').value;
+			var gender = document.getElementById('gender').value;
+
+			var result = document.getElementById('result');
+			
+			result.innerHTML = 
+					'<p>Name: ' + name + '</p>'
+				+ '<p>Age: ' + age + '</p>'
+				+ '<p>Gender: ' + gender + '</p>';
+		}
+
+	</script>
+
+</body>
+</html>

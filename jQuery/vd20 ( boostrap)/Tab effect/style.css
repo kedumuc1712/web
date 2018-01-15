@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 234px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.content img {
+    width: 242px;
+    height: 350px;
+}
+
+#home {
+    font-family: tahoma;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#tab {
+     font-family: tahoma;
+    font-size: 14px;
+    padding: 10px;
+}

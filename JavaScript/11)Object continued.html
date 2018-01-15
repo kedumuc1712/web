@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object</title>
+	<script type="text/javascript">
+	// Tao nhom doi tuong la Duck
+		function Duck(name, color){
+			//Thiet lap thuoc tinh: name, color
+			this.name = name;
+			this.color = color;
+
+			// Thiet lap phuong thuc chung
+			this.speak = function (){
+				console.log(this.name + "Quack Quack");
+			}
+		};
+
+		// Tao doi tuong: donald
+		var donald = new Duck('Donald', 'yellow');
+		// Tao doi tuong: daisy
+		var daisy = new Duck('Daisy', 'white');
+
+		donald.speak();
+		daisy.speak();
+	</script>
+</head>
+<body>
+
+</body>
+</html>

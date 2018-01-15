@@ -1,0 +1,5 @@
+/* list-style-image: url('link ảnh'); */
+#icon {
+	list-style-image: url('https://developer.mozilla.org/samples/cssref/background-repeat/starsolid.gif');
+	list-style-position: none;
+}

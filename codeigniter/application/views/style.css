@@ -1,0 +1,39 @@
+tr {
+  border: 1px solid #212121;
+}
+
+
+.modal_form {
+    opacity: 0.3;
+}
+
+.form {
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    background: #F5F5DC;
+}
+
+.field {
+    display: block;
+}
+
+input {
+    margin: 0 auto;
+}
+
+#save {
+    background-color: #286090;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #286090;
+}
+
+#cancel {
+    background-color: #C9302C;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #C9302C;
+}

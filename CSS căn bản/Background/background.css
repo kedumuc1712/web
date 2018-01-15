@@ -1,0 +1,57 @@
+#background-color {
+	width: 300px;
+	height: 300px;
+	background: #e7e7e7;
+	border: 1px solid #cacaca;
+}
+#header {
+	/* Ảnh nền */
+	background-image: 
+	url('http://imageshack.com/a/img922/7057/tXsk5v.jpg');
+	width: 1024px;
+	height: 680px;
+	margin: 0 auto; 
+	background-repeat: repeat-x; 
+}
+
+/* Căn giữa trang */
+h1 {
+	text-align: center;
+	color: #1F76CB;
+	padding: 15%;
+}
+
+/*Shre for all DIVS in example */
+li {
+	marign-bottom: 12px;
+}
+
+div {
+	background-image: 
+	url(https://developer.mozilla.org/samples/cssref/background-repeat/starsolid.gif);
+	width: 144px;
+	height: 84px;
+}
+
+/* backdround repeat CSS */
+.one {
+	background-repeat: no-repeat;
+}
+.two {
+	background-repeat: repeat;
+}
+.three {
+	background-repeat: repeat-x;
+}
+.four {
+	background-repeat: repeat-y;
+}
+
+/* Multiple images */
+.five {
+	background-image: 
+	url(https://developer.mozilla.org/samples/cssref/background-repeat/starsolid.gif),
+	url(https://developer.cdn.mozilla.net/media/redesign/img/favicon32.png);
+	background-repeat; repeat-x, repeat-y;
+	height: 144px;
+}

@@ -1,0 +1,28 @@
+#scale:hover img {
+	transform: scaleY(1.2);
+	-moz-transform: scaleY(1.2);
+	-webkit-transform: scale(1.2);
+}
+
+#transition img {
+	transition: 1s ease-in-out;
+	margin-left: 30px;
+}
+
+#transition:hover img {
+	transform: scaleX(1.5);
+	-moz-transform: scaleX(1.5);
+	-webkit-transform: scaleX(1.5);
+}
+
+#rotate:hover img {
+	transform: rotate(10turn);
+	-moz-transform: rotate(10turn);
+	-webkit-transform: rotate(10turn);
+}
+
+#rotate img {
+	transition: 1s ease-in-out;
+	-moz-transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
+}

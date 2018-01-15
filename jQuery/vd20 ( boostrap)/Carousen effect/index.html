@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carousel Effect</title>
+	
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.js"
+	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	  crossorigin="anonymous">	
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- Add boostrap -->
+	<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+	<script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-8">
+			<!-- bs3-carousel -->
+			<div id="carousel-id" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+					<li data-target="#carousel-id" data-slide-to="2" class=""></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="../images/11.jpeg" alt="image 11" class="image-responsive">
+						<div class="container">
+						
+						</div>
+					</div>
+					<div class="item">
+						<img src="../images/12.jpeg" alt="image 12" class="image-responsive">
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Another example image</h1>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="../images/13.jpeg" alt="image 13" class="image-responsive">
+						<div class="container">
+							<div class="carousel-caption">
+								<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

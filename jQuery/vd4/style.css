@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contentBlock {
+    color: gray;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.headBlock {
+    color: gray;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+h2.headBlock {
+    height: 88px;
+    font-size: 70px;
+    font-weight: 300;
+    color: #464646;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s;
+    /* margin-top: 0%; */
+    padding-top: 7%;
+}
+
+h2.headBlock:hover img {
+    margin-right: 0px;
+}
+
+h2.headBlock:hover {
+    color: lightblue;
+}
+
+.contentBlock {
+    color: gray;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.content {
+    width: 37%;
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+}
+
+h1.heading {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 100;
+    text-align: center;
+    margin: 17px 0;
+    font-size: 37px;
+    margin-bottom: 100px;
+}
+
+.contentBlock.changeColor {
+    color: lightblue;
+}
+
+h2.contentBlock.changeColor img {
+    margin-right: 0;
+    transform: rotate(180deg);
+    margin-top: 37px;
+}
+
+.scale_image {
+    transition: 0.5s;
+    transform: scale(4);
+}

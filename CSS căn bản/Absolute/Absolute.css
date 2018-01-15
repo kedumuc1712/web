@@ -1,0 +1,27 @@
+div {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #e6e6e6;
+	border: 1px solid #333;
+	padding: 15px;
+}
+
+#relative {
+	width: 100%;
+	border: 1px solid #333;
+	background-color: red;
+	height: 300px;
+	position: relative;
+}
+
+#absolute {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

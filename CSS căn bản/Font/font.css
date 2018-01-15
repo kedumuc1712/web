@@ -1,0 +1,24 @@
+p {
+	font-size: 24px;
+}
+body {
+	color:#29AC07;
+}
+#serif {
+	font-family: serif;
+}
+#sans-serif {
+	font-family: sans-serif;
+}
+#normal {
+	font-style: normal;
+}
+#italic {
+	font-style: italic;
+}
+#oblique {
+	font-style: oblique;
+}
+#fat {
+	font-weight: 900;
+}

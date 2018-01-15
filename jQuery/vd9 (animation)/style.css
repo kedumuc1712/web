@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One'); .site {
+    height: 700px;
+    background: url(gb.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+@-webkit-keyframes imageGoTo {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+ul.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    width: 50%;
+    margin-top: 2%;
+}
+
+li {
+    display: inline-block;
+    padding: 1.5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+}
+
+img.logo {
+    padding: 1%;
+}
+
+li:hover a {
+    color: violet;
+}
+
+.woman {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 11%;
+    opacity: 0;
+    animation: imageGoTo 1s forwards;
+    animation-delay: 0.8s;
+}
+
+@-webkit-keyframes goTop {
+    0% {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cloud {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    animation: goTop 1s forwards;
+}
+
+@-webkit-keyframes phongLen {
+    0% {
+        opacity: 0;
+        transform: scale(0.4);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.effect3 {
+    position: absolute;
+    right: 9%;
+    z-index: 0;
+    bottom: 83px;
+    opacity: 0;
+    animation: phongLen 0.4s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes sangPhai {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.bigText {
+    position: absolute;
+    z-index: 2;
+    top: 28%;
+    left: 20%;
+    font-size: 55px;
+    color: white;
+    width: 30%;
+    font-family: 'Leckerli One', cursive;
+    opacity: 0;
+    animation: sangPhai 0.4s forwards;
+    animation-delay: 2.5s;
+}
+
+@-webkit-keyframes lenTren {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.button {
+    position: absolute;
+    bottom: 25%;
+    left: 21%;
+    z-index: 2;
+    color: #269CDF;
+    background: white;
+    padding: 10px 29px;
+    border-radius: 15px;
+    font-family: 'Leckerli One', cursive;
+    opacity: 0;
+    animation: lenTren 0.4s forwards;
+    animation-delay: 3s;
+}
